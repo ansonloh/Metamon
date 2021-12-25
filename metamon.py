@@ -199,9 +199,9 @@ class metamon(object):
                 time.sleep(sleep_time)
 
 if __name__ == "__main__":
-    my_address = "0xce470C2a40E41233D250aB6BE0A8f4dbf966308A" # Your wallet address
-    my_sign = "0xd2ece5138316f636abe19e26e6e0d1650f23ff52bd98e86485725c812b48eda338832ecd52aa881918bab1d804a128f43d8b6f0954ef2933691a949ab3a107a01b" # Your sign
-    my_msg = "LogIn-ddb39727-029f-ed39-f4ca-9fd33ed9fb9e"  # Your msg
+    my_address = "" # Your wallet address
+    my_sign = "" # Your sign
+    my_msg = ""  # Your msg
     my_metamon = metamon(address=my_address, sign=my_sign, msg=my_msg)
     # my_metamon.set_local_time("06:00")    # You can set a loacl time which scrypt will run. The time format is "xx:xx", hour and minute
     # my_metamon.set_utc_time("22:00")    # You can also set a utc time which scrypt will run. The time format is "xx:xx", hour and minute
